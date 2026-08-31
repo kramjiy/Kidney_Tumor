@@ -1,0 +1,134 @@
+{
+  "characteristics": {
+    "enhancement": {
+      "arterialPhase": "Strong (85 HU)",
+      "interpretation": "Typical for RCC",
+      "pattern": "Heterogeneous",
+      "venousPhase": "Moderate washout (62 HU)"
+    },
+    "malignancy": {
+      "indicators": [
+        "Heterogeneous enhancement pattern",
+        "Size > 4cm"
+      ],
+      "probability": 0.87,
+      "risk": "High",
+      "status": "Likely Malignant"
+    },
+    "staging": {
+      "description": "Tumor >10cm, limited to kidney",
+      "lymphNodes": "No regional lymph node involvement detected",
+      "metastasis": "No distant metastasis detected",
+      "overall": "Stage II",
+      "tStage": "T2b"
+    }
+  },
+  "clinical": {
+    "bosniak": "IV",
+    "fuhrmanGrade": "Likely Grade 2-3",
+    "prognosis": {
+      "favorableFactors": [
+        "No lymph node involvement",
+        "No distant metastases",
+        "Confined to kidney (T1b)"
+      ],
+      "fiveYearSurvival": "81%",
+      "riskFactors": [
+        "Tumor size >4cm",
+        "Heterogeneous enhancement",
+        "Clear cell histology (assumed)"
+      ]
+    },
+    "recommendations": [
+      "Surgical intervention recommended (partial or radical nephrectomy)",
+      "Consider MRI for better soft tissue characterization",
+      "Chest CT to rule out pulmonary metastases",
+      "Baseline complete metabolic panel and CBC",
+      "Urological oncology consultation within 2-4 weeks"
+    ]
+  },
+  "detection": {
+    "confidence": 0.94,
+    "hasTumor": true,
+    "location": "Right kidney, upper pole",
+    "size": {
+      "depth": 13.38592548651678,
+      "height": 13.38592548651678,
+      "volume": 1255.8675291450043,
+      "width": 13.38592548651678
+    }
+  },
+  "differentials": [
+    {
+      "condition": "Clear Cell RCC",
+      "likelihood": "Very High (89%)"
+    },
+    {
+      "condition": "Papillary RCC",
+      "likelihood": "Low (7%)"
+    },
+    {
+      "condition": "Oncocytoma",
+      "likelihood": "Very Low (2%)"
+    },
+    {
+      "condition": "Angiomyolipoma (fat-poor)",
+      "likelihood": "Very Low (2%)"
+    }
+  ],
+  "growth": {
+    "aggressiveness": "Moderate-High",
+    "doublingTime": "12-18 months",
+    "estimatedGrowthRate": "0.8 cm/year",
+    "prediction": {
+      "current": 1255.8675291450043,
+      "oneYear": 1532.1583855569052,
+      "sixMonths": 1381.4542820595047,
+      "twoYears": 1858.6839431346064
+    }
+  },
+  "radiomics": {
+    "intensity": {
+      "interpretation": "Variable density with necrotic components",
+      "mean": 150.42833795210686,
+      "skewness": 0.2709008653685273,
+      "stdDev": 60.58370235495871
+    },
+    "shape": {
+      "compactness": 1,
+      "interpretation": "Irregular shape with moderate sphericity",
+      "sphericity": 1,
+      "surfaceArea": 442.27416997969516
+    },
+    "texture": {
+      "correlation": 0.9855692890253241,
+      "entropy": 3.8022614378017305,
+      "homogeneity": 0.9576393294880898,
+      "interpretation": "Heterogeneous texture suggesting aggressive variant"
+    }
+  },
+  "tumorType": {
+    "confidence": 0.89,
+    "primary": "Clear Cell Renal Cell Carcinoma (ccRCC)",
+    "subtypes": [
+      {
+        "name": "Clear Cell RCC",
+        "probability": 0.89
+      },
+      {
+        "name": "Papillary RCC Type 1",
+        "probability": 0.07
+      },
+      {
+        "name": "Chromophobe RCC",
+        "probability": 0.04
+      }
+    ]
+  },
+  "vascular": {
+    "arterialSupply": "From main renal artery",
+    "involvement": "No renal vein or IVC involvement",
+    "significance": "Favorable for surgical planning",
+    "venousDrainage": "Normal renal vein"
+  }
+}
